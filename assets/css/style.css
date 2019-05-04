@@ -1,0 +1,88 @@
+/*Color Variables*/
+/*Font Fanily Variables*/
+/*Font Size Variables*/
+/*10px*/
+/*12px*/
+/*14px*/
+/*15px*/
+/*16px base - Bootstrap*/
+/*18px*/
+/*20px*/
+/*22px*/
+/*24px*/
+/*26px*/
+/*28px*/
+/*30px*/
+/*32px*/
+/*34px*/
+/*36px*/
+/*38px*/
+/*40px*/
+/*Alignment Variables*/
+/*Display Properties*/
+/*Positioning Variables*/
+/*Utility Variables*/
+/*Menu Variables*/
+/*Utility Clas*/
+.no-padding {
+  padding-left: 0;
+  padding-right: 0; }
+
+.no-margin {
+  margin-left: 0;
+  margin-right: 0; }
+
+.img-responsive {
+  width: 100%; }
+
+.noPaddingLeft {
+  padding-left: 0; }
+
+.noPaddingRight {
+  padding-right: 0; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+body, html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-font-smoothing: antialiased; }
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+ol li, ul li {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+i {
+  font-style: italic; }
+
+b {
+  font-weight: bold; }
+
+a:hover, a:focus, input:focus, select:focus, textarea:focus, button:focus {
+  outline: none;
+  text-decoration: none;
+  outline: 0;
+  outline-offset: 0; }

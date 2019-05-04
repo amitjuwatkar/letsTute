@@ -1,0 +1,78 @@
+/*Color Variables*/
+$black: #000000;
+$white: #ffffff;
+$BannerTextColor: #231f20;
+$ContentColor: #fefefe;
+$pageTitle: #363636;
+$foote_bg: #272727;
+$partnerFormBg: #92e7e9;
+$transparent: transparent;
+$red: #f00;
+$blue: #037895;
+$featureBG : #7aecef;
+$redColor: #c73934;
+$goldenColor:#a77b12;
+$blueColor:#104f9e;
+
+/*Font Fanily Variables*/
+$digitalSerialBD : digital-serialbold;
+$robotoRegular : robotoregular;
+$robotoLight : robotolight;
+$robotoMedium : robotomedium;
+$fontawesome : FontAwesome;
+
+/*Font Size Variables*/
+$font_10 : 0.625rem;      /*10px*/
+$font_12 : 0.75rem;       /*12px*/
+$font_14 : 0.875rem;      /*14px*/
+$font_15 : 0.9375rem;     /*15px*/
+$font_16 : 1rem;          /*16px base - Bootstrap*/
+$font_18 : 1.125rem;      /*18px*/
+$font_20 : 1.25rem;       /*20px*/
+$font_22 : 1.375rem;      /*22px*/
+$font_24 : 1.5rem;        /*24px*/
+$font_26 : 1.625rem;      /*26px*/
+$font_28 : 1.75rem;       /*28px*/
+$font_30 : 1.875rem;      /*30px*/
+$font_32 : 2rem;          /*32px*/
+$font_34 : 2.125rem;      /*34px*/
+$font_36 : 2.25rem;       /*36px*/
+$font_38 : 2.375rem;      /*38px*/
+$font_40 : 2.5rem;        /*40px*/
+$titleFont : 4.375rem;
+
+/*Alignment Variables*/
+$center: center;
+$left: left;
+$right: right;
+$justify: justify;
+
+/*Display Properties*/
+$block : block;
+$inlineBlock : inline-block;
+$inline : inline;
+$table : table;
+$tableCell: table-cell;
+$none : none;
+
+/*Positioning Variables*/
+$absolute: absolute;
+$relative: relative;
+$static: static;
+$fixed: fixed;
+
+/*Utility Variables*/
+$borderBox : border-box;
+$hidden: hidden;
+$visible: visible;
+$opacity_1:1;
+$opacity_0:0;
+
+/*Menu Variables*/
+$fg: #ffc107;
+$bg: #009688;
+$pi: 3.14;
+$menu-items: 6;
+$open-distance: 105px;
+$opening-angle: $pi*2;
+$hamburger-spacing: 8px;
