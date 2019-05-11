@@ -24,12 +24,17 @@ var THIRD_PARTY_CSS = [ ];
 
 /*----Custom CSS----*/  
 var CUSTOM_CSS = [
+"node_modules/bootstrap/dist/css/bootstrap.min.css",
+"node_modules/owl.carousel2/dist/assets/owl.carousel.min.css",
   "./src/css/main.scss",
+
 ];
 
 /*----Third Party JS----*/
 var THIRD_PARTY_JS = [
-  "node_modules/jquery/dist/jquery.min.js"
+  "node_modules/jquery/dist/jquery.min.js",
+  "node_modules/bootstrap/dist/js/bootstrap.min.js",
+  "node_modules/owl.carousel2/dist/owl.carousel.min.js"
 ];
 
 /*----Custom JS----*/

@@ -1,0 +1,6 @@
+@mixin pageContent($fontSize, $fontFamily, $lineHeight, $color) {
+  	font-size:$fontSize;
+  	font-family:$fontFamily;
+  	line-height:$lineHeight;
+  	color:$color;
+}

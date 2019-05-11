@@ -1,0 +1,283 @@
+.banners{
+	img{
+		width:100%;
+	}
+}
+
+.threeStep{
+	background:$greyBg;
+	padding:50px 0;	
+	h2{
+		 @include pageContent($font_40, $calibri, 33px, $TitleColor);
+		     margin-bottom: 60px;
+		     font-weight:bold;
+	}
+	h3{
+		@include pageContent($font_40 + $font_20, $Bourbon,  43px, $subtitle);
+		     margin-bottom: 20px;
+	}
+	span{
+		@include pageContent($font_20, $calibriBold,  24px, $bodyContent);
+		text-transform:uppercase;
+		     margin-bottom: 20px;
+	}
+	img{ 
+		width:100%;
+	}
+	p{
+		@include pageContent($font_18, $calibri ,  24px, $bodyContent);
+		     margin-bottom: 0;	
+		     margin-top:20px;
+		     text-align:$center;
+		     padding:0 6%;
+	}
+} 
+
+.lerningPackages{
+	padding:50px 0;
+	h2{
+		@include pageContent($font_40, $calibri, 33px, $TitleColor);
+		margin-bottom: 5px;
+		font-weight:bold;
+		text-align:$center;
+	}
+	span{
+		@include pageContent($font_26, $calibri, 33px, $subTitle);
+		display:$block;
+		text-align:$center;
+	}
+	ul{
+		margin:0 0 50px; padding:0;
+		li{
+			margin-top:20px;
+			list-style:$none;
+			float:left;
+			width:13.96%;
+			.tickimage{
+				min-height:20px;
+			}
+			p{
+				@include pageContent($font_16, $calibri, 20px, $TitleColor);
+				padding:0 4%;
+			}
+		}
+	}
+}
+
+.gridsection{
+	padding-bottom:50px;
+	.subjectGrid{
+		padding:25px;
+		border:1px solid #afafaf;
+		border-radius:15px;
+		margin-right:40px;
+		img{
+			display:$inlineBlock;
+			margin-bottom:20px;
+		}
+		h2{
+			@include pageContent($font_32, $calibriBold, 33px, $bodyContent);
+			margin-bottom:10px;
+		}
+		.discount{
+			strike{
+				@include pageContent($font_18, $calibri, 33px, #545454);
+			}
+			span{
+				display:$inlineBlock;
+				background:$black;
+				padding:5px 10px;
+				margin-left:10px;
+				@include pageContent($font_18, $calibri, 33px, $white);
+			}
+		}
+		.costing{
+			display:$block;
+			margin-top:30px;
+			margin-bottom:30px;	
+			@include pageContent($font_30+$font_30, $calibriBold, 33px, $bodyContent);
+			span{
+				@include pageContent($font_20, $calibri, 33px, $bodyContent);
+			}
+		}
+		a{
+			display:$block;
+			width:190px;
+			margin:0 auto 20px;
+			background:#006ce8;
+			@include pageContent($font_24, $calibri, 32px, $white);
+			padding:15px;
+			border-radius:15px;
+		}
+		button{
+			background:transparent;
+			border:0;
+			@include pageContent($font_18, $calibriBold, 32px, $black);
+			img{
+				margin-left:15px;
+				margin-bottom:0;
+			}
+		}
+	}
+
+}
+
+.subjects{
+	margin-bottom:50px;
+	.innerWrapper{
+		padding:40px 20px;
+		background:#eaeaea;
+		border:1px solid #333;
+		border:1px solid #afafaf;
+		border-radius:15px;
+		h2{
+			@include pageContent($font_32, $calibriBold, 33px, $TitleColor);
+			margin:15px 0 0;
+			padding:0;
+		}
+		button{
+			@include pageContent($font_24, $calibriBold, 33px, $disabled);
+			padding:10px 20px;
+			border-radius: 10px;
+			background:#d1d1d1;
+			margin:25px 0 15px;
+		}
+		.watchDemo{
+			background:transparent;
+			border:0;
+			margin:0;
+			padding:0;
+			@include pageContent($font_18, $calibriBold, 32px, $black);
+			img{
+				margin-left:15px;
+				margin-bottom:0;
+			}
+		}
+	}
+}
+
+.FeatureVideo{
+	padding:50px 0;
+	h2{
+		@include pageContent($font_40, $calibri, 33px, $TitleColor);
+		margin-bottom: 5px;
+		font-weight:bold;
+		text-align:$center;
+		margin-bottom:30px;	
+	}
+	.switcher{
+		text-align:$center;
+		ul{
+			border:0;
+			display: $inlineBlock;
+			li{
+				display: $inlineBlock;
+				border:0;
+				a{
+					text-transform: uppercase;
+					border:0;
+					padding:5px 30px;
+					margin-right:20px;
+					display: $inlineBlock;
+					border:1px solid #d0d0d0 !important;
+					border-radius:25px;
+					@include pageContent($font_16,$calibriBold, 32px,$tabTitle	);
+				}
+				.active{
+					background: #ededed;
+				}
+			}
+		}
+	}
+	.tabContent{
+		margin-top:50px;
+		margin-bottom:20px;
+		> div { overflow: hidden; }
+		.leftDiv{
+			position: $relative;
+			img{
+				height:430px;
+				object-fit: cover;
+			}
+		}
+		.rightDIv{
+			position: $relative;
+			img{ 
+				height:200px;
+				object-fit: cover;	
+			 }
+		}
+		img{
+			width:100%;
+		}
+		.playButton{
+			height:70px;
+			width:70px;
+			position: $absolute;
+			left:0;
+			right:0;
+			top:0;
+			bottom:0;
+			margin:auto;
+			img{ width:100%; height:auto; }
+		}
+	}
+}
+
+.testimonails{
+	background:#e1e1e1;
+	padding:50px 0;
+	.carousel-inner{
+		padding:0 10%;
+	}
+	.carousel{
+		p{
+			@include pageContent($font_24,$calibri, 30px,$black);
+			margin-bottom:10px;
+		}
+		span{
+			@include pageContent($font_24,$calibriBold, 32px,$black);
+			text-transform: uppercase;	
+			display: $block;
+			margin-bottom:10px;
+		}
+		i{
+			@include pageContent($font_24,$calibri, 30px,$black);	
+			display: $block;
+			margin-bottom:30px;
+		}
+		img{
+			width:150px;
+			display: $inlineBlock;
+		}
+	}
+}
+
+.donate{
+	padding:150px 0 150px;
+	background:url('../images/study.png') no-repeat;
+	background-size: cover;
+	h2{
+		@include pageContent($font_38 + $font_10,$calibriBold, 64px,$white);	
+		text-transform: uppercase;
+		margin-bottom:20px;
+	}
+	a{
+		background:$white;
+		padding:20px 50px;
+		@include pageContent($font_30,$Bourbon, 36px,#006ce8);
+		display:$inlineBlock;	
+		border-radius:40px;
+	}
+}
+
+.partners{
+	padding:50px 0;
+	h2{
+		@include pageContent($font_40, $calibri, 33px, $TitleColor);
+		margin-bottom: 5px;
+		font-weight:bold;
+		text-align:$center;
+		margin-bottom:30px;	
+	}
+}
